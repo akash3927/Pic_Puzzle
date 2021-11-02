@@ -1,0 +1,80 @@
+body {
+  background-color: red;
+}
+#tab_grid {
+  width: 405px;
+  height: 402px;
+  border: 5px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+}
+.clks {
+  height: 133px;
+  width: 133px;
+  font-size: 0.1px;
+}
+
+#p11 {
+  background: url(./33.png);
+}
+#p12 {
+  background: url(./32.png);
+}
+#p13 {
+  background: url(./31.png);
+}
+#p21 {
+  background: url(./23.png);
+}
+#p22 {
+  background: url(./22.png);
+}
+#p23 {
+  background: url(./21.png);
+}
+#p31 {
+  background: url(./13.png);
+}
+#p32 {
+  background: url(./12.png);
+}
+#p33 {
+  background: url(./11.png);
+}
+#launch {
+  width: 150px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 1px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+#launch:hover {
+  color: red;
+}
+#moves {
+  width: 233px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
